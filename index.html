@@ -10,7 +10,6 @@
         }
         
         h2 {
-            background-color:rgb(230, 255, 0);
             color:rgb(145, 0, 7);
         }
         
@@ -22,13 +21,23 @@
         #note {
             color:red;
         }
-        
+        .contents {
+            background-color:rgb(248, 157, 157, 0.8);
+            padding-left:15px;
+            padding-right:15px;
+            border: dotted;
+            margin-left:80%;
+            margin-right:0cm;
+            position:fixed;
+            
+        }
         </style>
     </head>
     <body>
        
-        <h1>Chibi's Recipe Book</h1>
+        <h1 id="title">Chibi's Recipe Book</h1>
         
+        <div class="contents">
         <h2>Contents:</h2>
         
         <ol>
@@ -36,7 +45,8 @@
             <li><a href="#eggnog">Eggnog</a></li>
             <li><a href="#cookies">Christmas Cookies</a></li>
         </ol>
-        
+        </div>
+
         <h2 id="mac">Recipe #1</h2>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flickr_stuart_spivack_173603796--Macaroni_and_cheese.jpg/330px-Flickr_stuart_spivack_173603796--Macaroni_and_cheese.jpg" width="250">
         <ul>
